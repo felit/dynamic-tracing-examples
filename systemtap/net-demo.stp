@@ -1,0 +1,3 @@
+probe netdev.transmit {
+  println(pid())
+}
